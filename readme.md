@@ -1,7 +1,10 @@
 # General Neural Network class built with Numpy
 
 Includes several common activation layers, standard feed forward layers and convolution layers with backpropagation.
-To see examples of convolutional neural networks aiming at classifying basic geometric shapes, run *tests.ipynb* or run the configuration files directly in your favourite python terminal. This is achived by running *read_config("config_cnn_1d.INI")*, *plot_pred,net = read_config("config_cnn_2d.INI")* etc. The returned *plot_pred* function could be run to visualize how different pixles affects the class prediction. This is achieved by plotting the derivative of the loss function with respect to the input, aiming at achieving some basic explainability. See examples below.
+
+To see examples of convolutional neural networks aiming at classifying basic geometric shapes, run *tests.ipynb* or run the configuration files directly in your favourite python terminal. This is achived by running *read_config("config_cnn_1d.INI")*, *plot_pred,net = read_config("config_cnn_2d.INI")* etc. The returned *plot_pred* function could be run to visualize how different pixles affects the class prediction. 
+
+This is done by plotting the derivative of the loss function with respect to the input, aiming at achieving some basic explainability. See examples below.
 
 Explainability plot of geometric shapes using derivative of loss function
 
